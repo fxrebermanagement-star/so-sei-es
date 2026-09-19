@@ -1,15 +1,11 @@
 /* So sei es service worker */
-const VERSION = "1.2.0";
+const VERSION = "1.3.0";
 const CACHE = "so-sei-es-" + VERSION;
 const SHELL = [
   "./", "./index.html", "./css/app.css",
   "./js/util.js", "./js/storage.js", "./js/rituals.js",
   "./js/rituals-soft.js", "./js/rituals-hard.js", "./js/rituals-feld.js",
-  "./js/app.js",
-  "./js/p0_0.js", "./js/p0_1.js", "./js/p0_2.js",
-  "./js/p1_0.js", "./js/p1_1.js", "./js/p1_2.js",
-  "./js/p2_0.js", "./js/p2_1.js", "./js/p2_2.js",
-  "./js/p3_0.js", "./js/p3_1.js", "./js/p3_2.js",
+  "./js/app.js", "./js/b0.js", "./js/b1.js", "./js/b2.js", "./js/b3.js", "./js/b4.js", "./js/b5.js", "./js/b6.js", "./js/b7.js", "./js/b8.js", "./js/b9.js", "./js/b10.js", "./js/b11.js", "./js/b12.js", "./js/b13.js", "./js/b14.js", "./js/b15.js", "./js/b16.js", "./js/b17.js",
   "./manifest.webmanifest", "./assets/icon.svg"
 ];
 self.addEventListener("install", (e) => {

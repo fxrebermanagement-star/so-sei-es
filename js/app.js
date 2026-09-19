@@ -4,24 +4,31 @@ import {
   hardLockActive, setHardLock, exportAll, importAll
 } from "./storage.js";
 import { RITUALS, CAT_ORDER, ritualById } from "./rituals.js";
-import p0_0 from "./p0_0.js";
-import p0_1 from "./p0_1.js";
-import p0_2 from "./p0_2.js";
-import p1_0 from "./p1_0.js";
-import p1_1 from "./p1_1.js";
-import p1_2 from "./p1_2.js";
-import p2_0 from "./p2_0.js";
-import p2_1 from "./p2_1.js";
-import p2_2 from "./p2_2.js";
-import p3_0 from "./p3_0.js";
-import p3_1 from "./p3_1.js";
-import p3_2 from "./p3_2.js";
+import b0 from "./b0.js";
+import b1 from "./b1.js";
+import b2 from "./b2.js";
+import b3 from "./b3.js";
+import b4 from "./b4.js";
+import b5 from "./b5.js";
+import b6 from "./b6.js";
+import b7 from "./b7.js";
+import b8 from "./b8.js";
+import b9 from "./b9.js";
+import b10 from "./b10.js";
+import b11 from "./b11.js";
+import b12 from "./b12.js";
+import b13 from "./b13.js";
+import b14 from "./b14.js";
+import b15 from "./b15.js";
+import b16 from "./b16.js";
+import b17 from "./b17.js";
+const src = atob(b0+b1+b2+b3+b4+b5+b6+b7+b8+b9+b10+b11+b12+b13+b14+b15+b16+b17);
 new Function(
   "$", "$$", "esc", "uid", "fill", "fmtWhen", "hoursLeft",
   "loadChronik", "addChronik", "loadGabe", "saveGabe",
   "hardLockActive", "setHardLock", "exportAll", "importAll",
   "RITUALS", "CAT_ORDER", "ritualById",
-  (p0_0+p0_1+p0_2)+(p1_0+p1_1+p1_2)+(p2_0+p2_1+p2_2)+(p3_0+p3_1+p3_2)
+  src
 )(
   $, $$, esc, uid, fill, fmtWhen, hoursLeft,
   loadChronik, addChronik, loadGabe, saveGabe,
