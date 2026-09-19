@@ -1,5 +1,5 @@
 /* So sei es service worker */
-const VERSION = "1.0.2";
+const VERSION = "1.0.3";
 const CACHE = "so-sei-es-" + VERSION;
 const SHELL = [
   "./",
@@ -16,9 +16,7 @@ const SHELL = [
   "./js/src-1.js",
   "./js/src-2.js",
   "./manifest.webmanifest",
-  "./assets/icon.svg",
-  "./assets/icon-192.png",
-  "./assets/icon-512.png"
+  "./assets/icon.svg"
 ];
 
 self.addEventListener("install", (e) => {
