@@ -22,7 +22,10 @@ import b14 from "./b14.js";
 import b15 from "./b15.js";
 import b16 from "./b16.js";
 import b17 from "./b17.js";
-const src = atob(b0+b1+b2+b3+b4+b5+b6+b7+b8+b9+b10+b11+b12+b13+b14+b15+b16+b17);
+// atob() yields Latin-1 bytes; payloads are UTF-8 — decode once so umlauts stay correct
+const src = new TextDecoder("utf-8").decode(
+  Uint8Array.from(atob(b0+b1+b2+b3+b4+b5+b6+b7+b8+b9+b10+b11+b12+b13+b14+b15+b16+b17), (c) => c.charCodeAt(0))
+);
 new Function(
   "$", "$$", "esc", "uid", "fill", "fmtWhen", "hoursLeft",
   "loadChronik", "addChronik", "loadGabe", "saveGabe",
