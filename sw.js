@@ -1,5 +1,5 @@
 /* So sei es service worker */
-const VERSION = "1.0.0";
+const VERSION = "1.0.1";
 const CACHE = "so-sei-es-" + VERSION;
 const SHELL = [
   "./",
@@ -12,8 +12,8 @@ const SHELL = [
   "./js/rituals-hard.js",
   "./js/rituals-feld.js",
   "./js/app.js",
-  "./js/src-a.js",
-  "./js/src-b.js",
+  "./js/src-0.js",
+  "./js/src-1.js",
   "./manifest.webmanifest",
   "./assets/icon.svg",
   "./assets/icon-192.png",
