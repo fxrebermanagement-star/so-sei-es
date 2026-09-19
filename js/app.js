@@ -6,8 +6,9 @@ import {
 import { RITUALS, CAT_ORDER, ritualById } from "./rituals.js";
 import p0 from "./src-0.js";
 import p1 from "./src-1.js";
+import p2 from "./src-2.js";
 
-const b64 = p0 + p1;
+const b64 = p0 + p1 + p2;
 
 async function boot() {
   const bin = Uint8Array.from(atob(b64), (c) => c.charCodeAt(0));
