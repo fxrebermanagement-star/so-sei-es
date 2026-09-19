@@ -1,4 +1,4 @@
-/** localStorage for Chronik, Gabe, 24h hard-lock. Prefix so-sei-es_v1_ */
+/** localStorage Chronik/Gabe/24h-lock — prefix so-sei-es_v1_ */
 const P = "so-sei-es_v1_";
 
 function get(key, fallback) {
