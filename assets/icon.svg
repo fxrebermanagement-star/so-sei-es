@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="So sei es">
+  <rect width="512" height="512" rx="96" fill="#090614"/>
+  <circle cx="256" cy="256" r="180" fill="#1c122a" stroke="#b48c50" stroke-width="10"/>
+  <circle cx="256" cy="256" r="70" fill="#5a371e" stroke="#dcb464" stroke-width="6"/>
+  <ellipse cx="256" cy="210" rx="28" ry="48" fill="#ffc878"/>
+  <circle cx="256" cy="186" r="14" fill="#fff2c8"/>
+</svg>
