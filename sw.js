@@ -1,11 +1,11 @@
 /* So sei es service worker */
-const VERSION = "1.1.1";
+const VERSION = "1.1.2";
 const CACHE = "so-sei-es-" + VERSION;
 const SHELL = [
   "./", "./index.html", "./css/app.css",
   "./js/util.js", "./js/storage.js", "./js/rituals.js",
   "./js/rituals-soft.js", "./js/rituals-hard.js", "./js/rituals-feld.js",
-  "./js/app.js", "./js/app-0.js", "./js/app-1.js", "./js/app-2.js",
+  "./js/app.js", "./js/app-0.js", "./js/app-1.js", "./js/app-2.js", "./js/app-3.js",
   "./manifest.webmanifest", "./assets/icon.svg"
 ];
 self.addEventListener("install", (e) => {
